@@ -1,0 +1,69 @@
+.container {
+  margin-top: -100px;
+  max-width: 2000px;
+  display: flex;
+}
+.mySlides1 {
+  border-style: solid;
+  border-radius: 0%;
+  width: 1500px;
+  height: 450px;
+  background-color: #333;
+  padding: 10px;
+  margin-left: -5px;
+  padding-left: 10px;
+}
+.w3-button1 w3-black w3-display-left {
+  width: 100%;
+}
+.w3-content1 .w3-section1 {
+  padding-left: 5px;
+  width: 100%;
+}
+.heading {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 32px;
+}
+.content {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 1px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  background: linear-gradient(
+    141deg,
+    rgb(100, 176, 226) 20%,
+    #eee 100%,
+    #ddd 100%
+  );
+}
+.content1 {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 1px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  background: linear-gradient(
+    141deg,
+    rgb(100, 176, 226) 20%,
+    #eee 100%,
+    #ddd 100%
+  );
+}
+
+#subheading {
+  text-align: center;
+  font-size: 25px;
+}
+
+.affilation {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: bold;
+}

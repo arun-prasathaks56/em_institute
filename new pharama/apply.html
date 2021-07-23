@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="login.html" />
+    <link rel="stylesheet" href="slideshow.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="slideshow.css" />
+    <link rel="stylesheet" href="table.css" />
+  </head>
+  <body>
+    <form action="apply.php" method="POST" enctype="multipart/form-data">
+    <div class="header">
+      <img id="header_logo" src="profile3.jpeg" />
+      <h2>emHealth Institute of Paramediics</h2>
+      <h6>Affiliated to BSS And AIMLTA</h6>
+    </div>
+
+    <!--menu bar in header-->
+
+    <div class="navbar">
+      <div class="navbar" id="mainNavBar">
+        <a class="nav" href="index.html">Home</a>
+        <a class="nav" href="aboutus.html">About us</a>
+        <div class="dropdown">
+          <button class="dropbtn">Academics</button>
+          <div class="dropdown-content">
+            <a href="dmlt.html">DMLT</a>
+            <a href="xray.html">X-Ray and Imaging</a>
+            <a href="Anesthesia.html">Anesthesia Assistant</a>
+            <a href="optometry.html">Optometry</a>
+            <a href="patientcare.html">Physician Assistant</a>
+          </div>
+        </div>
+        <a class="nav" href="#">Faculty</a>
+        <a class="nav" href="affilation.html">Affiliation</a>
+        <a class="nav" href="gallery.html">Gallery</a>
+        <a class="nav" href="placement.html">Placement</a>
+        <a class="nav" href="admission.html">Admission</a>
+      </div>
+    </div>
+    <div class="heading">
+      <p>Application Form For Admission</p>
+    </div>
+    <h2>Personal Details:</h2>
+    <div class="apply">
+         <div class="apply_left">
+            <label for="fname">Name of the Applicant:</label></br>
+            <input type="text" id="fname" name="applicantname" placeholder="Your name.."></br>
+            <label for="birthday">Date of Birth:</label></br>
+            <input type="date" id="birthday" name="applicantdob"> </br>
+            <label for="phone">Phone Number:</label></br>
+            <input type="tel" id="phnumber" name="applicantnumber" placeholder="Your number.."  maxlength="10" minlength="10"></br>
+            <label for="email">Email ID:</label></br>
+          <input type="email" id="email" name="applicantemail" placeholder="Your mail id.."></br>
+          <label for="gender">Gender:</label></br>
+          <select name="gender" id="gender">
+            <option value="gender">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+          </select></br>
+          </div>
+          <div class="apply_right">
+            <label for="nationality" >Nationality:</label></br>
+            <select name="nationality" id="nationality">
+              <option value="select">Select</option>
+              <option value="indian">Indian</option>
+              <option value="others">Others</option>
+            </select></br>
+            <label for="community" >Community:</label></br>
+            <select name="community" id="community">
+              <option value="select">Select</option>
+              <option value="oc">OC</option>
+              <option value="bc">BC</option>
+              <option value="obc">OBC</option>
+              <option value="mbc">MBC</option>
+              <option value="dnc">DNC</option>
+              <option value="sc">SC</option>
+              <option value="st">ST</option>
+            </select></br>
+            <label for="religion">Religion:</label></br>
+            <select name="religion" id="religion" placeholder="religion">
+              <option value="religion">Select</option>
+              <option value="hindu">Hindu</option>
+              <option value="christian">Christian</option>
+              <option value="muslim">Muslim</option>
+              <option value="others">Others</option>
+            </select></br>
+            <label for="abled">Are You Differently Abled ?</label></br>
+            <select name="abled" id="abled">
+              <option value="select">Select</option>
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select></br>
+            <label for="Instruction" >Medium of Instruction:</label></br>
+            <select name="instruction" id="instruction">
+              <option value="instruction">Select</option>
+              <option value="english">English</option>
+              <option value="others">Others</option>
+            </select></br>
+          </div>
+    </div>
+    <h2>Personal Details:</h2>
+    <div class="apply">
+        
+         <div class="apply_left">
+            <label for="fname">Father's Name:</label></br>
+            <input type="text" id="fname" name="fathername" placeholder="Your father name.."></br>
+            <label for="phone">Father's Number:</label></br>
+            <input type="tel" id="phnumber" name="fathernumber" placeholder="Your father number.."  maxlength="10" minlength="10"></br>
+            <label for="email">Father's Occupation:</label></br>
+          <input type="text" id="email" name="fatheroccupation" placeholder="Your father occupation.."></br>
+          </div>
+          <div class="apply_right">
+            <label for="fname">Mother's Name:</label></br>
+            <input type="text" id="fname" name="mothername" placeholder="Your mother name.."></br>
+            <label for="phone">Mother's Number:</label></br>
+            <input type="tel" id="phnumber" name="mothernumber" placeholder="Your mother number.."  maxlength="10" minlength="10"></br>
+            <label for="email">Mother's Occupation:</label></br>
+          <input type="text" id="email" name="motheroccupation" placeholder="Your mother number.."></br>
+          </div>
+    </div>
+    <h2>Address Details:</h2>
+        <div class="apply">
+           <div class="apply_left">
+                <label for="address">Address:</label></br>
+                <textarea id="messag" name="applicantaddress" rows="5" cols="30"></textarea><br>
+            </div>
+            <div class="apply_right">
+                <label for="phone">Pin Code:</label></br>
+                <input type="tel" id="phnumber" name="pincode" placeholder="Your pincode.."  maxlength="6" minlength="6"></br>
+            </div>
+        </div>  
+    <h2>Education details:</h2>
+    <div class="table_overflow">
+    <div class="education_table">
+        <table id="education_customers">
+            <tr>
+    
+                <th>Name of the Qualifying </br>Exam</th>
+                <th>Year of </br>Passing</th>
+                <th>Name of the school/collage </br>studied</th>
+                <th>Name of the university/Board </br>studied</th>
+                <th>Certificate No</th>
+                <th>% Obtained</th>
+                <th>Marksheet </br>Upload</th>
+    
+            </tr>
+            <tr>
+                <td><input type="text" id="examname" name="examname"></td>
+                <td><input type="text" id="year" name="year"></td>
+                <td><input type="text" id="institutename" name="institutename"></td>
+                <td><input type="text" id="boardname" name="boardname"></td>
+                <td><input type="text" id="certificate" name="certificate"></td>
+                <td><input type="text" id="markpercentage" name="markpercentage"></td>
+                <td><input type="file" id="uploadfiles" name="uploadfiles"></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="fname" name="fathersname"></td>
+                <td><input type="text" id="fname" name="fathersname"></td>
+                <td><input type="text" id="fname" name="fathersname"></td>
+                <td><input type="text" id="fname" name="fathersname"></td>
+                <td><input type="text" id="fname" name="fathersname"></td>
+                <td><input type="text" id="fname" name="fathersname"></td>
+                <td><input type="file" id="fname" name="fathersname"></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="fname" name="fathersname"></td>
+                <td><input type="text" id="fname" name="fathersname"></td>
+                <td><input type="text" id="fname" name="fathersname"></td>
+                <td><input type="text" id="fname" name="fathersname"></td>
+                <td><input type="text" id="fname" name="fathersname"></td>
+                <td><input type="text" id="fname" name="fathersname"></td>
+                <td><input type="file" id="fname" name="fathersname"></td>
+            
+              </tr>
+          </table>
+       </div>
+    <p style="text-align: center;">NOTE: Upload the Marksheet in any of these three format (PDF,JPEG,JPG) </p>
+    <h2>Course Details:</h2>
+    <div class="apply">
+         <div class="apply_left">
+            <label for="fname">Academic Year:</label></br>
+            <input type="text" id="Academicyear" name="Academicyear" placeholder="Year.."></br>
+            <label for="course">Course:</label></br>
+                <select name="course" id="course">
+                  <option value="select">Select</option>
+                  <option value="DMLT">DMLT</option>
+                  <option value="PGDMLT">PGDMLT</option>
+                  <option value="Diploma in Anesthesia Technology">Diploma in ANESTHESIA TECHNOLOGY</option>
+                  <option value="Diploma in X-Ray and Imaging Technology">Diploma in X-Ray and Imaging Technology</option>
+                  <option value="Diploma in Optometry">Diploma in Optometry</option>
+                  <option value="Diploma in Physician Assistant">Diploma in Physician Assistant</option>
+                </select></br>
+          </div>
+          <div class="apply_right">
+            <label for="studymode">Study Mode:</label></br>
+            <select name="studymode" id="studymode">
+              <option value="select">Select</option>
+              <option value="fulltime">Full Time</option>
+              <option value="parttime">Part Time</option>
+            </select></br>
+          </div>
+          <form ... onsubmit="return checkForm(this);">
+          <div class="declaration">
+            <input type="checkbox" id="declaration" name="declaration" value="declaration">
+          <label for="declaration"> I ,hereby affirm that the particulars given in this Application form are true and correct to the best of my knowledge</label><br>
+          </div>
+          <input type="submit" onclick="validation()" name="application_submit" value="submit">
+        </form>
+        </form>
+        <script>
+
+        </script>
+  </body>
+</html>

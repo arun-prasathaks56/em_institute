@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="slideshow.css" />
+    <link rel="stylesheet" href="table.css" />
+  </head>
+  <body>
+    <!--header part-->
+
+    <div class="header">
+      <img id="header_logo" src="profile3.jpeg" />
+      <h2>emHealth Institute of Paramediics</h2>
+      <h6>Affiliated to BSS And AIMLTA</h6>
+    </div>
+
+    <!--menu bar in header-->
+
+    <div class="navbar">
+      <div class="navbar" id="mainNavBar">
+        <a class="nav" href="index.html">Home</a>
+        <a class="nav" href="aboutus.html">About us</a>
+        <div class="dropdown">
+          <button class="dropbtn">Academics</button>
+          <div class="dropdown-content">
+            <a href="dmlt.html">DMLT</a>
+            <a href="xray.html">X-Ray and Imaging</a>
+            <a href="Anesthesia.html">Anesthesia Assistant</a>
+            <a href="optometry.html">Optometry</a>
+            <a href="patientcare.html">Patient Care</a>
+          </div>
+        </div>
+        <a class="nav" href="#">Faculty</a>
+        <a class="nav" href="affilation.html">Affiliation</a>
+        <a class="nav" href="gallery.html">Gallery</a>
+        <a class="nav" href="placement.html">Placement</a>
+        <a class="nav" href="admission.html">Admission</a>
+      </div>
+    </div>
+    <div class="patterns">
+      <svg width="100%" height="100%">
+        <text x="50%" y="60%" text-anchor="middle">100% Job Placement Assistance</text>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="w3-content1 w3-section1">
+        <img class="mySlides1" src="image1.jpg" style="width: 100%" />
+        <img class="mySlides1" src="image2.jpg" style="width: 100%" />
+        <img class="mySlides1" src="image3.jpg" style="width: 100%" />
+        <img class="mySlides1" src="image4.jpg" style="width: 100%" />
+        <img class="mySlides1" src="image5.jpg" style="width: 100%" />
+      </div>
+
+      <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides1");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {
+            myIndex = 1;
+          }
+          x[myIndex - 1].style.display = "block";
+          setTimeout(carousel, 4000); // Change image every 2 seconds
+        }
+      </script>
+    </div>
+    <div class="heading">
+      <p>Diploma in Optometry</p>
+    </div>
+    <div class="content">
+      <p id="subheading">ABOUT</p>
+      <p><b>Diploma in Optometry</b> course includes eye and related structures, as well as vision, 
+        visual systems & vision information processing in humans. Optometrists are primary health care 
+        providers for the Diagnosis, management, and treatment of Eye Diseases, Refractive disorders.
+       This course applicant is familiar with inspection and analyzing of numerous refractive conditions 
+       and oversees Optical guides, for example, Optical Glasses, Contact lenses, and other Remedial guides</p>
+       <p>Students can also specialize in the field of Contact lenses, Orthotics, Low Vision Aids, Sports Vision,
+          Pediatric Optometry and Behavioral Optometry especially as it associates with vision and the eye.
+          The course is a career offering in nature that opens many scopes for the applicants both in the 
+          private and government sectors</p>  
+    </div>
+    <div class="table">
+      <table id="customers">
+        <tr>
+          <th>Course</th>
+          <th>Affiliation</th>
+          <th>Duration</th>
+          <th>Eligibility</th>
+        </tr>
+        <tr>
+          <td>Diploma in Optometry</td>
+          <td>BSS</td>
+          <td>2 Year</td>
+          <td>10th Pass / Fail</td>
+        </tr>
+      </table>
+    </div>
+    <div class="affilation">
+      <p>
+        BSS - Bharat Sevak Samaj (BSS) is a national development agency,
+        Promoted by Planning Commission, Govt of India
+      </p>
+    </div>
+    <p id="course_subject">DIPLOMA IN OPTOMETRY</p>
+    <div class="table">
+      <table id="customers">
+        <tr>
+          <th>S.No</th>
+          <th>YEAR</th>
+          <th>Subject Code</th>
+          <th>Subject</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>I YEAR</td>
+          <td>AHE016-01</td>
+          <td>COMMUNICATIVE ENGLISH & <br>COMPUTER FUNDAMENTALS</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>I YEAR</td>
+          <td>AHE016-02</td>
+          <td>ANATOMY &<br> PHYSIOLOGY OF EYE</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>I YEAR</td>
+            <td>AHE016-03</td>
+            <td>BASIC MICROBIOLOGY,</br> PHARMACOLOGY &<br> CLINICAL PATHOLOGY</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>I YEAR</td>
+            <td>AHE016-04</td>
+            <td>PHYSIOLOGICAL OPTICS &<br> PRINCIPLES OF REFRACTION</td>
+          </tr>
+          <tr>
+           <td>5</td>
+           <td>I YEAR</td>
+           <td>AHE016-05</td>
+           <td>OPTOMETRIC INSTRUMENTS</td>
+         </tr>
+         <tr>
+           <td>6</td>
+           <td>I YEAR</td>
+           <td>AHE016-06</td>
+           <td>PRACTICAL - I</td>
+         </tr>
+         <tr>
+           <td>7</td>
+           <td>I YEAR</td>
+           <td>AHE016-07</td>
+           <td>PRACTICAL - II</td>
+         </tr>
+         <tr>
+           <td>8</td>
+           <td>I YEAR</td>
+           <td>AHE016-08</td>
+           <td>PRACTICAL - III</td>
+         </tr>
+         <tr>
+           <td>9</td>
+           <td>I YEAR</td>
+           <td>AHE0612-09</td>
+           <td>PRACTICAL - IV</td>
+         </tr>
+         <tr>
+           <td>10</td>
+           <td>I YEAR</td>
+           <td>AHE016-10</td>
+           <td>PRACTICAL - V</td>
+         </tr>
+      </table>
+    </div>
+    <div class="table">
+      <table id="customers">
+       <tr>
+         <th>S.No</th>
+         <th>YEAR</th>
+         <th>Subject Code</th>
+         <th>Subject</th>
+       </tr>
+       <tr>
+         <td>11</td>
+         <td>II YEAR</td>
+         <td>AHE016-11</td>
+         <td>CLINICAL OPTHALMOLOGY</td>
+       </tr>
+       <tr>
+         <td>12</td>
+         <td>II YEAR</td>
+         <td>AHE016-12</td>
+         <td>PRACTICE OF REFRACTION</td>
+       </tr>
+       <tr>
+           <td>13</td>
+           <td>II YEAR</td>
+           <td>AHE016-13</td>
+           <td>OPTOMETRY WORKSHOP</td>
+         </tr>
+         <tr>
+           <td>14</td>
+           <td>II YEAR</td>
+           <td>AHE016-14</td>
+           <td>COMMUNITY OPTOMETRY</td>
+         </tr>
+         <tr>
+          <td>15</td>
+          <td>II YEAR</td>
+          <td>AHE016-15</td>
+          <td>OPTOMETRY NURSING</td>
+        </tr>
+        <tr>
+          <td>16</td>
+          <td>II YEAR</td>
+          <td>AHE016-16</td>
+          <td>PRACTICAL - VI</td>
+        </tr>
+        <tr>
+          <td>17</td>
+          <td>II YEAR</td>
+          <td>AHE016-17</td>
+          <td>PRACTICAL - VII</td>
+        </tr>
+        <tr>
+          <td>18</td>
+          <td>II YEAR</td>
+          <td>AHE016-18</td>
+          <td>PRACTICAL - VIII</td>
+        </tr>
+        <tr>
+          <td>19</td>
+          <td>II YEAR</td>
+          <td>AHE0612-19</td>
+          <td>PRACTICAL - IX</td>
+        </tr>
+        <tr>
+          <td>20</td>
+          <td>II YEAR</td>
+          <td>AHE016-20</td>
+          <td>PRACTICAL - X</td>
+        </tr>
+     </table>
+      </div> 
+    <footer class="footer">
+      <div class="footer_container">
+        <div class="row">
+          <div class="footer-col">
+            <p><b>GET IN TOUCH</b></p>
+            <p>
+              If you would like to find out more about how we can help you,
+              please give us a call or drop us an email
+            </p>
+            <i style="font-size: 20px" class="fa">&#xf095;</i>
+            <p>95668 95668</p>
+            <i style="font-size: 20px" class="fa">&#xf0e0;</i>
+            <p>support@emHealth.in</p>
+          </div>
+          <div class="footer-col">
+            <p><b>ADDRESS</b></p>
+            <i style="font-size: 20px" class="fa">&#xf2bc;</i>
+            <p>
+              Corporate Office: No 21, Mangali Nagar 1st Street, Arumbakkam,
+              Chennai, Tamil Nadu 600106
+            </p>
+            <br />
+            <br />
+          </div>
+          <div class="footer-col">
+            <p>
+              <a href="#" style="color: white"
+                ><i class="fa fa-folder fa-lg">Student's circle</i></a
+              >
+            </p>
+            <p>
+              <a href="#" style="color: white"
+                ><i class="fa fa-rss fa-lg">Blog</i></a
+              >
+            </p>
+            <p>
+              <a href="#" style="color: white"
+                ><i class="fa fa-commenting fa-lg">FeedBack</i></a
+              >
+            </p>
+            <p>
+              <a href="#" style="color: white"
+                ><i class="fa fa-question-circle fa-lg">PrivacyPolicy</i></a
+              >
+            </p>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fa fa-google"></i></a>
+              <a href="#"><i class="fa fa-facebook-f"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+            <h6>
+              Copyright © 2021 I All Rights Reserved to emHealth Paramediics
+            </h6>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="login.html">
+    <link rel="stylesheet" href="slideshow.css">
+    <link rel="stylesheet" href="table.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="header">
+    <img id="header_logo" src="profile3.jpeg" />
+    <h2>emHealth Institute of Paramediics</h2>
+    <h6>Affiliated to BSS And AIMLTA</h6>
+  </div>
+
+  <!--menu bar in header-->
+
+  <div class="navbar">
+    <div class="navbar" id="mainNavBar">
+      <a class="nav" href="index.html">Home</a>
+      <a class="nav" href="aboutus.html">About us</a>
+      <div class="dropdown">
+        <button class="dropbtn">Academics</button>
+        <div class="dropdown-content">
+          <a href="dmlt.html">DMLT</a>
+          <a href="xray.html">X-Ray and Imaging</a>
+          <a href="Anesthesia.html">Anesthesia Assistant</a>
+          <a href="optometry.html">Optometry</a>
+          <a href="patientcare.html">Physician Assistant</a>
+        </div>
+      </div>
+      <a class="nav" href="#">Faculty</a>
+      <a class="nav" href="affilation.html">Affiliation</a>
+      <a class="nav" href="gallery.html">Gallery</a>
+      <a class="nav" href="placement.html">Placement</a>
+      <a class="nav" href="admission.html">Admission</a>
+    </div>
+  </div>
+    <div class="heading">
+        <p>Application Form For Admission</p>
+       </div>
+    <div class="apply">
+      <h2>Personal Details:</h2>
+       <div class="apply_left"> <br>
+        <br>
+        <br>
+        <br>
+          <label for="fname">Name of the Applicant:</label></br>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.."></br>
+          <label for="birthday">Date of Birth:</label></br>
+          <input type="date" id="birthday" name="birthday"> </br>
+          <label for="phone">Phone Number:</label></br>
+          <input type="tel" id="phnumber" name="phonenumber" placeholder="Your number.."  maxlength="10" minlength="10"></br>
+          <label for="nationality" >Nationality:</label></br>
+          <select name="nationality" id="nationality">
+            <option value="select">Select</option>
+            <option value="indian">Indian</option>
+            <option value="others">Others</option>
+          </select></br>
+          <label for="community" >Community:</label></br>
+          <select name="community" id="community">
+            <option value="select">Select</option>
+            <option value="oc">OC</option>
+            <option value="bc">BC</option>
+            <option value="obc">OBC</option>
+            <option value="mbc">MBC</option>
+            <option value="dnc">DNC</option>
+            <option value="sc">SC</option>
+            <option value="st">ST</option>
+          </select></br>
+      <h2>Parents Details:</h2>
+          <label for="fname">Father's Name:</label></br>
+          <input type="text" id="fname" name="fathersname" placeholder="Your Father's name.."></br>
+          <label for="fname">Mother's Name:</label></br>
+          <input type="text" id="fname" name="firstname" placeholder="Your Mother's name.."></br>
+          <label for="phone">Father's Occupation:</label></br>
+          <input type="tel" id="phnumber" name="phonenumber" placeholder="Your Father's occupation.."></br>
+          <label for="address">Address:</label></br>
+          <textarea id="messag" name="messag" rows="5" cols="38"></textarea><br>
+          <h2>Education Qualification:</h2>
+       </div>
+       <div class="apply_right">
+       </br>
+       </br>
+    </br>
+          <label for="gender">Gender:</label></br>
+          <select name="gender" id="gender" placeholder="Gender">
+            <option value="gender">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+          </select></br>
+          <label for="email">Email ID:</label></br>
+          <input type="email" id="email" name="email" placeholder="Your mail id.."></br>
+          <label for="religion">Religion:</label></br>
+          <select name="religion" id="religion" placeholder="religion">
+            <option value="religion">Select</option>
+            <option value="hindu">Hindu</option>
+            <option value="christian">Christian</option>
+            <option value="muslim">Muslim</option>
+            <option value="others">Others</option>
+          </select></br>
+          <label for="gender">Are You Differently Abled ?:</label></br>
+          <select name="gender" id="gender" placeholder="Gender">
+            <option value="gender">Select</option>
+            <option value="male">Yes</option>
+            <option value="female">No</option>
+          </select></br>
+          <label for="Instruction" >Medium of Instruction:</label></br>
+          <select name="instruction" id="instruction">
+            <option value="instruction">Select</option>
+            <option value="english">English</option>
+            <option value="others">Others</option>
+          </select></br>
+        </br>
+        </br>
+        </br>
+    </br></br>
+  </br>
+  </br>
+
+        
+          <label for="phone">Father's Number:</label></br>
+          <input type="tel" id="phnumber" name="phonenumber" placeholder="Your Father's number.."  maxlength="10" minlength="10"></br>
+          <label for="phone">Mother's Number:</label></br>
+          <input type="tel" id="phnumber" name="phonenumber" placeholder="Your Mother's number.."  maxlength="10" minlength="10"></br>
+          <label for="phone">Mothers's Occupation:</label></br>
+          <input type="tel" id="phnumber" name="phonenumber" placeholder="Your Father's occupation.."></br></br></br>
+          <label for="phone">Pin Code:</label></br>
+          <input type="tel" id="phnumber" name="phonenumber" placeholder="Your pincode.."  maxlength="6" minlength="6"></br>
+       </div>  
+    
+    </div>
+    <div class="Apply_table">
+        <table id="Apply_customers">
+            <tr>
+              <th>Name of the Qualifying </br>Exam</th>
+              <th>Year of </br>Passing</th>
+              <th>Name of the school/collage </br>studied</th>
+              <th>Name of the university/Board </br>studied</th>
+              <th>Certificate No</th>
+              <th>% Obtained</th>
+              <th>Marksheet </br>Upload</th>
+            </tr>
+            <tr>
+              <td><input type="text" id="ap" name="fathersname"></td>
+              <td><input type="text" id="ap" name="fathersname"></td>
+              <td><input type="text" id="ap" name="fathersname"></td>
+              <td><input type="text" id="ap" name="fathersname"></td>
+              <td><input type="text" id="ap" name="fathersname"></td>
+              <td><input type="text" id="ap" name="fathersname"></td>
+              <td><input type="file" id="ap" name="fathersname"></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="fname" name="fathersname"></td>
+                <td><input type="text" id="fname" name="fathersname"></td>
+                <td><input type="text" id="fname" name="fathersname"></td>
+                <td><input type="text" id="fname" name="fathersname"></td>
+                <td><input type="text" id="fname" name="fathersname"></td>
+                <td><input type="text" id="fname" name="fathersname"></td>
+                <td><input type="file" id="fname" name="fathersname"></td>
+                
+              </tr>
+              <tr>
+                <td><input type="text" id="fname" name="fathersname"></td>
+                <td><input type="text" id="fname" name="fathersname"></td>
+                <td><input type="text" id="fname" name="fathersname"></td>
+                <td><input type="text" id="fname" name="fathersname"></td>
+                <td><input type="text" id="fname" name="fathersname"></td>
+                <td><input type="text" id="fname" name="fathersname"></td>
+                <td><input type="file" id="fname" name="fathersname"></td>
+            
+              </tr>
+          </table>
+          <p>NOTE: Upload the Marksheet in any of these three format (PDF,JPEG,JPG) </p>
+      </div>
+        <div class="apply">
+        
+          <div class="apply_left">
+              <h2>Course Details:</h2>
+              <label for="fname">Academic Year:</label></br>
+              <input type="text" id="fname" name="firstname" placeholder="Year.."></br>
+              <label for="gender">Course:</label></br>
+                <select name="gender" id="gender" placeholder="Gender">
+                  <option value="gender">Select</option>
+                  <option value="male">DMLT</option>
+                  <option value="female">PGDMLT</option>
+                  <option value="male">Diploma in ANESTHESIA TECHNOLOGY</option>
+                  <option value="female">Diploma in X-Ray and Imaging Technology</option>
+                  <option value="female">Diploma in Optometry</option>
+                  <option value="female">Diploma in Physician Assistant</option>
+                </select></br>
+          </div>
+            <div class="apply_right">
+            </br>
+          </br>
+        </br>
+
+                <label for="gender">Study Mode:</label></br>
+                <select name="gender" id="gender" placeholder="Gender">
+                  <option value="gender">Select</option>
+                  <option value="male">Full Time</option>
+                  <option value="female">Part Time</option>
+                </select></br>
+            </div>
+        </div>
+        <div class="declaration">
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I ,hereby affirm that the particulars given in this Application form are true and correct to the best of my knowledge</label><br>
+        </div>
+        <div class="apply_mode">
+          <div class="online_apply">
+            <div class="login">
+              <a href="#"><p id="Apply_btn">Submit</p></a>
+            </div>
+          </div>
+        </div>
+</body>
+</html>
